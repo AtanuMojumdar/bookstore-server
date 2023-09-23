@@ -20,7 +20,6 @@ googleAuth_router.post('/', async (req, res) => {
 
         let timestamp = Date.now();
         const currentDate = new Date(timestamp); // creates current Date
-
         const response = await Googleuser.findOneAndUpdate(
             { email },
             { email,
