@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "server side code for bookstore",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Atanu & Ronit",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
